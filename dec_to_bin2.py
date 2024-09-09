@@ -15,7 +15,6 @@ def dec_to_bin(number: int, return_type: rt = list) -> Sequence[int]:
 
             for j in range(length):
                 value += array[j] * pow(2, (length - (j + 1)))
-
             return value
         
         bit_array = [0 for _ in range(ceil(log2(number + 1)))]
