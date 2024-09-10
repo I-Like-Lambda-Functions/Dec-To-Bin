@@ -12,4 +12,4 @@ def dec_to_bin(number: int, return_type: rt = list) -> Sequence[int]:
 			
             bit_array.append(number % 2)
             number //= 2
-		return return_type(bit_array[::-1])
+	return return_type(bit_array[::-1])
