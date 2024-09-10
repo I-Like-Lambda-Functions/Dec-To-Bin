@@ -23,3 +23,6 @@ def dec_to_bin(number: int, return_type: rt = list) -> Sequence[int]:
             dec_num -= bit_value
             bit_array[bit_index] = 1
         return return_type(bit_array[::-1])
+
+num = int(input())
+print(dec_to_bin(num))
