@@ -25,3 +25,5 @@ def dec_to_bin(number: int, return_type: rt = list) -> Sequence[int]:
                 bit_array[i] = randint(0, 1)
         return return_type(bit_array)
     
+num = int(input())
+print(dec_to_bin(num))
